@@ -29,5 +29,6 @@ cursor.execute(sql1)
 
 sql3 = '''
 insert into person(fname, lname) values('wajahat', 'ahmed')'''
+# insert into person(fname, lname) values('Aleezah', 'Ikram')'''
 cursor.execute(sql3)
 db.commit()
